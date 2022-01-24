@@ -1,0 +1,13 @@
+
+    <h1>
+        Lista de clientes
+    </h1>
+    
+    <ul>
+        {% for cliente in clientes %}
+            <li>
+                {{ cliente.nome }}<br>
+                {{ cliente.senha }}
+            </li>
+        {% endfor %}
+    </ul>
